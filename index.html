@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ignite Fitness | Unisex Gym</title>
+<title>Ignite Fitness | Unisex Gym in Greater Noida</title>
+<meta name="description" content="Ignite Fitness is a premium unisex gym in Greater Noida offering personal training, bodybuilding, cardio workouts, weight training, Zumba classes, and diet consultation.">
+<meta name="keywords" content="Ignite Fitness, Gym in Greater Noida, Personal Training, Bodybuilding, Cardio, Zumba, Weight Training, Fitness, Health">
 
 <style>
 * {
@@ -17,19 +19,16 @@ body {
   color: #fff;
 }
 
-/* ========== HERO / HEADER ========== */
+/* HERO / HEADER */
 header {
   min-height: 100vh;
-
   background-image:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
     url('FitnessGym.jpg');
-
   background-size: cover;
-  background-position: center top; /* 🔥 TOP PART FIX */
+  background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* 🔥 PARALLAX */
-
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,7 +50,7 @@ header p {
   color: #eee;
 }
 
-/* ========== BUTTON ========== */
+/* BUTTON */
 .btn {
   margin-top: 25px;
   padding: 14px 32px;
@@ -68,7 +67,7 @@ header p {
   box-shadow: 0 0 25px #ff9800;
 }
 
-/* ========== SECTION ========== */
+/* SECTION */
 section {
   max-width: 1200px;
   margin: 50px auto;
@@ -85,7 +84,7 @@ h2 {
   margin-bottom: 35px;
 }
 
-/* ========== SERVICES ========== */
+/* SERVICES */
 ul {
   list-style: none;
   padding: 0;
@@ -106,7 +105,7 @@ ul li:hover {
   transform: translateX(8px);
 }
 
-/* ========== OFFERS ========== */
+/* OFFERS */
 .offer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -129,7 +128,7 @@ ul li:hover {
   box-shadow: 0 25px 45px rgba(255,87,34,0.7);
 }
 
-/* ========== FORM ========== */
+/* FORM */
 .form-box {
   max-width: 420px;
   margin: auto;
@@ -171,7 +170,7 @@ ul li:hover {
   cursor: pointer;
 }
 
-/* ========== GALLERY ========== */
+/* GALLERY */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
@@ -191,7 +190,7 @@ ul li:hover {
   box-shadow: 0 25px 45px rgba(0,0,0,0.8);
 }
 
-/* ========== FOOTER ========== */
+/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
@@ -199,7 +198,7 @@ footer {
   background: #000;
 }
 
-/* ========== SUCCESS MESSAGE ========== */
+/* SUCCESS MESSAGE */
 .success-message {
   text-align: center;
   margin-top: 15px;
@@ -208,10 +207,10 @@ footer {
   display: none;
 }
 
-/* ========== MOBILE FIX (VERY IMPORTANT) ========== */
+/* MOBILE FIX */
 @media (max-width: 768px) {
   header {
-    background-attachment: scroll; /* ❌ Disable parallax on mobile */
+    background-attachment: scroll;
     background-position: top center;
   }
 
@@ -275,9 +274,9 @@ footer {
 <section>
   <h2>Gallery</h2>
   <div class="gallery">
-    <img src="gym1.jpg" class="gallery-img">
-    <img src="gym2.jpg" class="gallery-img">
-    <img src="gym3.jpg" class="gallery-img">
+    <img src="gym1.jpg" class="gallery-img" alt="Treadmill and Cardio Equipment at Ignite Fitness Gym">
+    <img src="gym2.jpg" class="gallery-img" alt="Weight Training Section at Ignite Fitness Gym">
+    <img src="gym3.jpg" class="gallery-img" alt="Zumba and Group Fitness Classes at Ignite Fitness Gym">
   </div>
 </section>
 
@@ -299,6 +298,7 @@ form.addEventListener('submit', e => {
 
 </body>
 </html>
+
 
 
 
